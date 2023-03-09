@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto+Serif:opsz,wght@8..144,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto+Serif:opsz,wght@8..144,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+ body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)),url("./resources/pexels-maxyne-barcel-10402282\ 1.png");
+background-image: filter();
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: "Poppins",'arial', sans-serif;
+
+ }
+ header{
+   margin-top: 100px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+ }
+ header img{
+  height:"40px" ;width:"100px";
+ }
+ header ul{
+    display: flex;
+    font-weight: 700;
+    font-style: bold;
+    color:#fec133;
+    align-items: center;
+ }
+ header ul li{
+    display: flex;
+    margin-right: 25px;
+   
+
+ }
+ header button{
+  position: sticky;
+   background-color: #ff515f;
+   border-style: none;
+   font-size: 18px;
+   width: 90px;
+   height: 30px;
+   color: white;
+   
+
+ }
+ main{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  
+   height: 600px;
+   padding-top: 100px;
+ }
+ main p{
+  width: 800px;
+   font-size: 60px;
+   color:#fec133;
+   font-weight: 1000;
+   font-family: "Climate Crisis";
+   
+   
+   display: flex;
+   justify-content: center;
+   /* font-family: Roboto; */
+ }
+ footer{
+   display: flex;
+   justify-content: end;
+   height: 120px;
+   padding-right: 20px;
+   margin-top: 20px;
+ }
+ main button{
+  background-color:#ff515f;
+  font-size: 22px;
+  color: white;
+  width: 200px;
+  height: 60px;
+  border-style: none;
+  font-style: bold;
+  margin-top: 30px;
+ }
+ footer img{
+  height: 100px;
+  width: 100px;
+  margin: 0 20px 20px 0;
+ }
