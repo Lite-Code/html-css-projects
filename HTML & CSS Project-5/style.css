@@ -1,0 +1,52 @@
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigation{
+    display: flex;
+    width: 100vw;
+    justify-content: right;
+   
+}
+.navigation div{
+    margin: 10px;
+}
+.navigation :first-child{
+    border-style: none;
+    background-color: rgb(106, 20, 212);
+    border-radius: 18px;
+    padding: 5px;
+}
+.body1,.body2{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+   
+}
+.social{
+    display: flex;
+}
+.heading{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+footer p{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.social{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.body1 div,
+.body2 div{
+    margin: 10px;
+}
