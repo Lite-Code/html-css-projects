@@ -1,31 +1,59 @@
-body{
-    width: 100vw;
-    height: 100vh;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #111827;
+    color: white;
+    
 }
 .head{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 80px;
+}
+.head :first-child{
+    margin-right: 20px;
 }
 .navigation{
     display: flex;
     width: 100vw;
     justify-content: right;
+    padding-right: 15px;
+    font-size: 20px;
    
+}
+img[alt="ham"]{
+    width: 20px;
+    display: none;
+}
+img[alt="pc"]{
+    width: 400px;
+}
+img[alt="project"]
+{
+    height : 250px; 
+    width : 250px;
 }
 .navigation div{
     margin: 10px;
 }
-.navigation :first-child{
-    border-style: none;
-    background-color: rgb(106, 20, 212);
-    border-radius: 18px;
-    padding: 5px;
+img:hover{
+    cursor: pointer;
 }
+
+.navigation :first-child{
+    
+    padding: 5px 10px;
+    background: #6464e0;
+    border-radius: 15px;
+}
+
 .body1,.body2{
     width: 100vw;
     display: flex;
     justify-content: center;
+    gap: 7px;
    
 }
 .social{
@@ -34,19 +62,130 @@ body{
 .heading{
     width: 100vw;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: 40px;
 }
-footer p{
-    width: 100vw;
+.heading h4{
+    margin-top: 70px;
+}
+.firstLine{
+    font-weight: 900; font-size: 30px;
+}
+.secondLine{
+
+    font-size: 60px
+}
+.thirdLine{
+
+    font-size: 35px;
+            color: #c5c559;
+}
+.underscore{
+    height: 10px;
+    width: 135px;
+    background-color: blue;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+footer {
+    margin: 50px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    gap: 15px;
+   
+} 
+footer :first-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+footer div h3{
+    font-size: 40px;
+}
+.underscore2{
+    height: 10px;
+    width: 200px;
+    background-color: blue;
+    border-radius: 20px;
+    margin-bottom: 20px;
 }
 .social{
-    width: 100vw;
     display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 15px;
+ 
+    /* width: 100vw;
+    display: flex;
+    justify-content: center; */
+}
+.social img{
+    width: 30px;
 }
 .body1 div,
 .body2 div{
     margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 576px)
+{
+    .navigation div{
+        display: none;
+    }
+    img[alt="ham"]{
+        display: block;
+        margin-right: 87vw;
+        margin-top: 2vw;
+        
+        
+    }
+    .head{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .head :first-child{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin-bottom: 30px;
+    }
+    .firstLine{
+        font-size: 20px;
+    }
+    .secondLine{
+        font-size: 40px;
+    }
+    .thirdLine{
+        font-size: 25px;
+    }
+    img[alt="pc"]
+    {
+        width: 60vw;
+    }
+    img[alt="project"]{
+        width: 55vw;
+    }
+    .body1,
+    .body2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
 }
